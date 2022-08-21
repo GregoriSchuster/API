@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QdDb6FXJvaw+HRNb/AZ6NgepN1qjox7g4pH+DGNYYFFICgWs5vnFKMrVfj7tUxGhwgXheBvH+MXHLnYo1dp0Jg==",
+  "dgSpecHash": "xbLbvoQg9vpFT4uqoa22VtBrvtjsH5qLsn88MRFtF8iCksPPn68pdp3fjuzgGBwxf/I3W+4OZruRE8F+t1kf4Q==",
   "success": true,
-  "projectFilePath": "C:\\TesteBravi\\API\\API\\API.csproj",
+  "projectFilePath": "C:\\TesteBraviAPI\\API\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\grego\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\grego\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.17\\microsoft.aspnetcore.authentication.jwtbearer.5.0.17.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\TesteBravi\\API\\API\\API.csproj": {}
+    "C:\\TesteBraviAPI\\API\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\TesteBravi\\API\\API\\API.csproj": {
+    "C:\\TesteBraviAPI\\API\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\TesteBravi\\API\\API\\API.csproj",
+        "projectUniqueName": "C:\\TesteBraviAPI\\API\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\TesteBravi\\API\\API\\API.csproj",
+        "projectPath": "C:\\TesteBraviAPI\\API\\API\\API.csproj",
         "packagesPath": "C:\\Users\\grego\\.nuget\\packages\\",
-        "outputPath": "C:\\TesteBravi\\API\\API\\obj\\",
+        "outputPath": "C:\\TesteBraviAPI\\API\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
