@@ -38,26 +38,8 @@ namespace API.Controllers
             }
         }
 
-        [HttpGet("PeopleByName")]
-        public async Task<ActionResult<IAsyncEnumerable<Person>>> GetPeopleByName([FromQuery] string name)
-        {
-            try
-            {
-                IEnumerable<Person> people = await _personService.GetPeopleByName(name);
-
-                if (people.Count() == 0)
-                    return NotFound($"Nenhuma pessoa encontrada, realize a pesquisa novamente.");
-
-                return Ok(people);
-            }
-            catch (Exception)
-            {
-                return BadRequest("Request inválido");
-            }
-        }
-
         [HttpGet("{id:int}", Name="GetPerson")]
-        public async Task<ActionResult<Person>> GetPerson([FromQuery] int id)
+        public async Task<ActionResult<Person>> GetPerson(int id)
         {
             try
             {

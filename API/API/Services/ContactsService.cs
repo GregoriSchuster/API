@@ -29,6 +29,20 @@ namespace API.Services
             }
         }
 
+        public async Task<IEnumerable<Contact>> GetContactByIdPerson(int idPerson)
+        {
+            try
+            {
+                IEnumerable<Contact> contact = await _context.Contacts.Where(x => x.IdPerson == idPerson).ToListAsync();
+
+                return contact;
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+
         public async Task<Contact> GetContact(int id)
         {
             try

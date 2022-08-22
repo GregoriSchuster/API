@@ -10,6 +10,7 @@ namespace API.Services
     {
         Task<IEnumerable<Contact>> GetContacts();
         Task<Contact> GetContact(int id);
+        Task<IEnumerable<Contact>> GetContactByIdPerson(int idPerson);
         Task CreateContact(Contact contact);
         Task UpdateContact(Contact contact);
         Task DeleteContact(Contact contact);

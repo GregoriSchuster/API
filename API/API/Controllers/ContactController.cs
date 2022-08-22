@@ -38,8 +38,23 @@ namespace API.Controllers
             }
         }
 
+        [HttpGet("GetContactByIdPerson")]
+        public async Task<ActionResult<IAsyncEnumerable<Person>>> GetContactByIdPerson([FromQuery] int idPerson)
+        {
+            try
+            {
+                IEnumerable<Contact> contact = await _contactService.GetContactByIdPerson(idPerson);
+
+                return Ok(contact);
+            }
+            catch (Exception)
+            {
+                return BadRequest("Request inválido");
+            }
+        }
+
         [HttpGet("{id:int}", Name = "GetContact")]
-        public async Task<ActionResult<Contact>> GetContact([FromQuery] int id)
+        public async Task<ActionResult<Contact>> GetContact(int id)
         {
             try
             {

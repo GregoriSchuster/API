@@ -29,29 +29,6 @@ namespace API.Services
             }
         }
 
-        public async Task<IEnumerable<Person>> GetPeopleByName(string name)
-        {
-            try
-            {
-                IEnumerable<Person> people;
-
-                if (!string.IsNullOrWhiteSpace(name))
-                {
-                    people = await _context.People.Where(x => x.Name.Contains(name)).ToListAsync();
-                }
-                else
-                {
-                    people = await GetPeople();
-                }
-
-                return people;
-            }
-            catch (Exception)
-            {
-                throw;
-            }
-        }
-
         public async Task<Person> GetPerson(int id)
         {
             try
