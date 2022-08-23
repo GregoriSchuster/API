@@ -193,3 +193,5 @@ C:\TesteBraviAPI\API\API\obj\Debug\net5.0\API.dll
 C:\TesteBraviAPI\API\API\obj\Debug\net5.0\ref\API.dll
 C:\TesteBraviAPI\API\API\obj\Debug\net5.0\API.pdb
 C:\TesteBraviAPI\API\API\obj\Debug\net5.0\API.genruntimeconfig.cache
+C:\TesteBravi\API\API\bin\Debug\net5.0\Npgsql.dll
+C:\TesteBravi\API\API\bin\Debug\net5.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
